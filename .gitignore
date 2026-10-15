@@ -1,0 +1,16 @@
+
+.venv/
+__pycache__/
+*.py[cod]
+.env
+.streamlit/secrets.toml
+
+# Dataset files — don't push hundreds of MB to GitHub
+data/
+
+# Trained model — keep local for now
+models/
+
+# Temporary files
+*.log
+.DS_Store
